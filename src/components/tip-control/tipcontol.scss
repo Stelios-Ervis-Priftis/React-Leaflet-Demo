@@ -1,0 +1,42 @@
+.tip-control {
+  background-color: #fff;
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 401;
+  opacity: 0.9;
+  border-radius: 3px;
+  box-shadow: 10px 10px 3px 0px rgba(0, 0, 0, 0.5);
+  width: 646px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 40px;
+  transition-property: opacity;
+  transition-duration: 1s;
+
+  p {
+    font-size: 15px;
+    color: #000;
+    margin: 0;
+
+    span {
+      font-weight: bold;
+      font-style: italic;
+    }
+  }
+
+  .close-btn {
+    color: #000;
+    font-size: 20px;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+.hide {
+  opacity: 0;
+}
