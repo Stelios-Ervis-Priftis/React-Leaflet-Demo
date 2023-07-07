@@ -1,5 +1,3 @@
-import { useState } from 'react';
-
 import { RiCloseCircleLine } from 'react-icons/all';
 import './tipcontol.scss';
 
