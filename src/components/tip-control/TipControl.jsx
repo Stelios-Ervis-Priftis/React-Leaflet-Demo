@@ -5,7 +5,6 @@ import './tipcontol.scss';
 
 export default function TipControl() {
   const handleIsPanelClose = () => {
-    console.log('clicked');
     setIsPanelClose(true);
   };
 
