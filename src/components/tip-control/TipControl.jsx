@@ -1,5 +1,5 @@
 import { RiCloseCircleLine } from 'react-icons/all';
-import './tipcontol.scss';
+import './tipControl.scss';
 
 export default function TipControl() {
   const handleIsPanelClose = () => {
